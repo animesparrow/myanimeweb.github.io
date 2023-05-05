@@ -31,10 +31,10 @@ layout: base
     
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
-      <div class="col-md-4">
+      <div class="col-md-5">
      
         <div class="card">
-          <img src="{{post.coverphoto}}" class="card-img-top" alt="...">
+          <img src="{{post.coverphoto}}" class="card-img-top img-fluid" alt="...">
         <div class="card-body">
         
         <h3>
@@ -61,6 +61,7 @@ layout: base
     </div>
     
     </div>
+    <br>
       {%- endfor -%}
    
   </div>

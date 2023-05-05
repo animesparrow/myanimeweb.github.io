@@ -212,6 +212,11 @@ pre {
   }
 }
 
+*,
+::before,
+::after {
+  box-sizing: content-box !important;
+}
 
 
 /**
