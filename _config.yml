@@ -33,6 +33,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
+minima:
+  skin: classic
+  date_format: "%b %-d, %Y"
+
 permalink: /:year/:month/:day/:title:output_ext
 
 # Exclude from processing.
