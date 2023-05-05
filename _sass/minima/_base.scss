@@ -207,19 +207,12 @@ pre {
 
   @media screen and (min-width: $on-large) {
     max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
-    padding-right: $spacing-unit * .5;
-    padding-left: $spacing-unit * .5;
+    padding-right: $spacing-unit * .5; /*was previously only spacing unit -sabhya*/
+    padding-left: $spacing-unit * .5;/*was previously only spacing unit -sabhya*/
   }
 }
 
-*,
-::before,
-::after {
-  -webkit-box-sizing: initial !important;
-  -moz-box-sizing: initial !important;
-  box-sizing:border-box !important;
-  
-}
+
 
 
 /**
