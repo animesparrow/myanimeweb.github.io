@@ -5,21 +5,45 @@ title: Anime
 permalink: /anime/
 ---
 
-<ul class="post-list">
+   
+
+
+  
+ 
+
+
+
+
+
+
+
+
+<div class="row">
     {%- for post in site.categories['anime'] -%}
-    <li>
-        <span class="post-meta">
-            {{post.date | date: date_format }}
-        </span>
-        <h3>
-            <a class="post-link" href="{{ post.url | relative url }}">
-                {{ post.title | escape }}
-            </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-            {{post.excerpts}}
-        {{%- endif -%}}
-    {%- endif -%}
-    </li>
+    <div class="col-md-4">
+        <div class="card">
+         <img src="{{post.coverphoto}}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">
+                <a class="post-link" href="{{ post.url | relative url }}" style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 16px;"><b>
+                    {{ post.title | escape }}</b>
+                </a>
+                </h5>
+         <span class="post-meta card-text" style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 16px;">{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+         {{ post.date | date: date_format }}
+          <br>
+        <marquee><span class="post-meta">
+          {%- for tag in post.tags -%}
+            <a href="/t/{{ tag | downcase | replace: ' ', '-' }}" style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 16px;">
+              #{{ tag }}
+            </a>&nbsp;
+          {%- endfor -%}
+        </span></marquee>
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        <!--{{ post.excerpt }}-->
+      </span>
+ </div>
+    </div>
+    </div>
     {%- endfor -%}
-</ul>
+</div>

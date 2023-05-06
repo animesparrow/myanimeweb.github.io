@@ -9,7 +9,7 @@ layout: base
 
     
    
-<div class="row border-start border-end">
+<div class="row">
 
 
   <!-- Html Elements for Search -->
@@ -34,7 +34,7 @@ layout: base
     {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
-  <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 24px;"><b>Recent Posts</b></h1>
+  <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 20px;"><b>Recent Posts</b></h1>
   {{ content }}
 
 
@@ -93,7 +93,7 @@ layout: base
 </div>
 
 <div class="col-md-4">
-  <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 24px;"><b>Tags</b></h1>
+  <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 20px;"><b>Tags</b></h1>
   {% for tag in site.tags %}
   <a href="/t/{{ tag | first  | downcase | replace: ' ', '-' }}" style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 16px;">
    #{{ tag | first }}
