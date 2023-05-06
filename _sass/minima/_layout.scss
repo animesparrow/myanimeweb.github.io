@@ -28,6 +28,15 @@
   }
 }
 
+.site-title::before {
+	content: url("../../assets/animecentipedenew.png");
+	display: inline-block;
+	position: relative;
+	width: 35px;
+	top: 5px;
+  
+}
+
 .site-nav {
   position: absolute;
   top: 9px;
