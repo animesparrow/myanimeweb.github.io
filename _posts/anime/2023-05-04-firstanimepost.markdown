@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Anime Post!!!"
+title:  "Demon Slayer Season 3 Episode 1 Review! Upper Moons are Scary."
 date:   2023-05-04 11:01:10 +0545
 categories: anime 
 tags: Spring2023Anime demonslayer
