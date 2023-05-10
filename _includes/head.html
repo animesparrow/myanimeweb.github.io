@@ -15,5 +15,14 @@
   {%- endif -%}
 
   {%- include custom-head.html -%}
-  
+
+  {% if page.layout == 'post' %}
+<meta property="og:title" content="{{post.title}}" />
+<meta property="og:description" content="{{post.content}}" />
+<meta property="og:url" content="{{post.url | relative_url}}" />
+<meta property="og:image" content="{{post.coverphoto}}" />
+<meta property="og:site_name" content="WebCentipede" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+{%- endif -%}
 </head>
