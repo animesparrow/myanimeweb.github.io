@@ -5,7 +5,7 @@ permalink: /privacypolicy/
 ---
 
 
-<h1>Privacy Policy for WebCentipede</h1>
+<div style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 16px;color: black;">  
 
 <p>At WebCentipede, accessible from https://webcentipede.github.io/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by WebCentipede and how we use it.</p>
 
@@ -108,3 +108,4 @@ permalink: /privacypolicy/
 <h2>Contact Us</h2>
 
 <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.</p>
+</div>

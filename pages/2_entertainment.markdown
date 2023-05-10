@@ -13,7 +13,7 @@ permalink: /entertainment/
          <img src="{{post.coverphoto}}" class="card-img-top" alt="{{post.title}}">
             <div class="card-body">
                 <h5 class="card-title">
-                <a class="post-link" href="{{ post.url | relative url }}" style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 16px;"><b>
+                <a class="post-link" href="{{ post.url | relative url }}" style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 16px;color: black;"><b>
                     {{ post.title | escape }}</b>
                 </a>
                 </h5>
