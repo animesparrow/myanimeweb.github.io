@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Demon Slayer Season 3 Episode 1 Review! Upper Moons are Scary."
+desc: "Hey i just made a fucking manga blog !!!!"
 date:   2023-05-04 11:01:10 +0545
 categories: technology 
 tags: ai
