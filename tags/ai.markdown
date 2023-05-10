@@ -1,11 +1,11 @@
 ---
 layout: tag
-title: "Tag: Spring 2023 Anime"
-permalink: /t/spring2023anime
+title: "Tag: AI"
+permalink: /t/ai
 ---
 
 <div class="row">
- {%- for post in site.tags["Spring2023Anime"] -%}
+ {%- for post in site.tags["ai"] -%}
     <div class="col-md-4">
         <div class="card">
          <img src="{{post.coverphoto}}" class="card-img-top" alt="...">
