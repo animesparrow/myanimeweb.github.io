@@ -23,7 +23,7 @@ email: webcentipede@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Cover the web with me and find all the exciting things happening around the world.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://webcentipede.github.io"
 twitter_username: webcentipede
 github_username:  webcentipede
 
